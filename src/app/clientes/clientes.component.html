@@ -1,0 +1,9 @@
+<div class="titulo"> <app-texto-negrito [Negrito]="texto"></app-texto-negrito> </div>
+
+<div class="container">
+    <div *ngFor="let dados of meusDados">
+        <strong>Nome: </strong>{{dados.nome}}  | <strong>Sobrenome: </strong>{{dados.sobrenome}}   |  <strong>Telefone </strong>{{dados.telefone}}  |  <strong>Cpf </strong>{{dados.Cpf}}
+
+        |  <strong>Idade </strong>{{dados.idade}}  |  <strong>Endereço </strong>{{dados.endereco}}
+    </div>
+</div>
